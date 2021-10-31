@@ -1,9 +1,9 @@
 # Team Name: Hackatsuki
 
 ## Team Members: 
-  BODAVULA RAKESH
-  SAI SREEKAR
-  SAI RITVIK
+  1. BODAVULA RAKESH
+  2. SAI SREEKAR
+  3. SAI RITVIK
   
 ## Pre-requisites: A browser
 
