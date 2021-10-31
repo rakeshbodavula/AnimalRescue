@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|fire|outline|emboss|shadow-multiple|fire-animation">
+    <title>Shelter for stray animals</title>
+    <link rel="stylesheet" href="Animal.css">
+</head>
+<body>
+    <header>
+        <div class="icon">
+            <h1 class="font-effect-fire-animation">HACKATSUKI</h1>
+            <!-- <img src="icon.jpg" alt="Loading" class="icon-img" style="width: 120px; height:110px"> -->
+        </div>
+        <div class="nav">
+            <div class="nav-button"><a href="#Home">Home</a></div>
+            <div class="nav-button"><a href="#Adopt">Adopt</a></div>
+            <div class="nav-button"><a href="#About">About Us</a></div>
+        </div>
+    </header>
+    <div class="register">
+        <a href="#Register" class="font-effect-outline"><strong> Found a stray Animal?</strong></a>
+    </div>
+
+
+    <section id="Home">
+        <div class="home">
+            <h1>Welcome to Hackatsuki</h1>
+            <h2>An Animal Rescuing and Adoption Center</h2>
+        </div>
+    </section>
+
+    <section id="Register">
+        <div class="container">
+            <h1>Hey! Found a stray Animal?</h1>
+            <h2>Please fill in the details so that we can pickup the animal</h2>
+            <div>Image: <input type="file" id='Image'></div>
+            <div>Animal Name: <input type="text" id='name'></div>
+            <div>Address: <input type="text" id='address'></div>
+            <div>City: <input type="text" id='city'></div>
+            <div>Mobile No: <input type="text" id='phno'></div>
+            <button id="submit" onclick="addRow()">Submit</button>
+        </div>
+    </section>
+
+
+
+    <section id="Adopt">
+        <h1>Hello Thanks for coming to adopt the animals</h1>
+        <h2>Below is the list of animals registered till now</h2>
+        <div class="adopt-table">
+            <table id="table" border="2">
+                <thead>
+                    <tr>
+                        <th>Animal</th>
+                        <th>Address</th>
+                        <th>City</th>
+                        <th>Mobile</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </section>
+    
+    <section id="About">
+        <div class="about">
+            <h2>We the members of Hackatsuki are working to help the stray animals </h2>
+        </div>
+    </section>
+
+    <script src="Animal.js"></script>
+</body>
+</html>
