@@ -7,7 +7,7 @@
   
 ## Pre-requisites: A browser
 
-## Steps : open my repo and clik on the pages and then check the deployed page
+## Steps : open my repo and click on the pages and then check the active and deployed page
 
 ## Ours is a Web Application
 
