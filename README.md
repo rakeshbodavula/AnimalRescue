@@ -12,6 +12,7 @@
   2. Click on the buttons(Home,Adopt,About,Found a stray animal) to got to that particular section 
   3. enter some details in the form and then check the Adopt section for the details entered(if reloaded the data will be erased)
   
+### Github hosting page link : https://rakeshbodavula.github.io/Hackatsuki/
 
 ## Ours is a Web Application
 
