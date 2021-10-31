@@ -31,6 +31,15 @@
         <div class="home">
             <h1>Welcome to Hackatsuki</h1>
             <h2>An Animal Rescuing and Adoption Center</h2>
+            <p>We pick up the stray and injured animals and will do the following things: </p>
+            <ul>
+                <li>Give them some proper treatment</li>
+                <li>Clean them</li>
+                <li>Feeding them with proper food</li>
+                <li>Training them so that they are useful for some work</li>
+            </ul>
+            <p>Your 5 minutes of time can give an animal a beautiful,wonderful and a happy life</p>
+            <p>So think once again and spend a few minutes in informing about the stray or injured animals near you to us</p>
         </div>
     </section>
 
@@ -39,16 +48,17 @@
             <h1>Hey! Found a stray Animal?</h1>
             <h2>Please fill in the details so that we can pickup the animal</h2>
             <div>Image: <input type="file" id='Image'></div>
-            <div>Animal Name: <input type="text" id='name'></div>
-            <div>Address: <input type="text" id='address'></div>
-            <div>City: <input type="text" id='city'></div>
-            <div>Mobile No: <input type="text" id='phno'></div>
+            <div>Animal: <input type="text" id='name' value="Dog"></div>
+            <div>Street: <input type="text" id='address' value="SVR street"></div>
+            <div>City: <input type="text" id='city' value="Chennai"></div>
+            <div>Mobile No: <input type="text" id='phno' value="1234567890"></div>
             <button id="submit" onclick="addRow()">Submit</button>
+            <p><strong>Note: </strong> Please fill correct mobile number and details so that our work gets done easily</p>
         </div>
     </section>
+    
 
-
-
+    
     <section id="Adopt">
         <h1>Hello Thanks for coming to adopt the animals</h1>
         <h2>Below is the list of animals registered till now</h2>
@@ -68,9 +78,19 @@
     
     <section id="About">
         <div class="about">
+            <img src="motive.jpg" style="border-radius: 5px; border: solid 2px yellow;">
             <h2>We the members of Hackatsuki are working to help the stray animals </h2>
+            <p>The main motive of our work is to help all the helpless animals and give them to the persons who take good care of them</p>
+            <p>and which in return help them in some means. Also having a pet animal gives us the happiness and increases our love towards the animals</p>
+            <p>If you find any stray animal dont hesitate to inform us regarding it</p>
+            <p></p>
         </div>
     </section>
+    <footer>
+        <p>
+            Copyright &copy; 2021 by <strong>Hackatsuki</strong> All Rights Reserved
+        </p>
+    </footer>
 
     <script src="Animal.js"></script>
 </body>
