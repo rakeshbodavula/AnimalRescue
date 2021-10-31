@@ -1,6 +1,7 @@
 *{
     margin: 10px 0;
     padding: 0;
+    overflow: auto;
 }
 
 body{
@@ -177,10 +178,10 @@ textarea{
 }
 
 table{
-	margin-top: 50px;
-	text-align: center;
-	background: #333;
-	color: #fff;
+    margin-top: 50px;
+    text-align: center;
+    background: #333;
+    color: #fff;
     border-radius: 5px;
     border: solid rgb(251, 255, 0);
 }
