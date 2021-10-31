@@ -50,11 +50,12 @@ header{
 }
 
 .nav-button{
+    box-shadow: 2px 3px 2px rgb(245, 65, 65);
     min-width: 90px;
     background-color: rgba(5, 253, 220, 0.726);
     /* margin: 0 30px; */
     padding: 10px 0;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 
@@ -115,15 +116,24 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     min-height: 99vh;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.home ul,.home p{
+    margin: 20px 0;
+    list-style-position:inside;
 }
 
 .home h1,.home h2{
+    text-align: center;
     color: rgb(0, 225, 255);
     margin: 10px;
     font-size: 28px;
     word-spacing: 5px;
+    margin-bottom: 20px;
 }
 
 #Register{
@@ -140,7 +150,8 @@ header{
 
 #Register h2, #Register h1{
     text-align: center;
-    color: rgb(251, 88, 230);
+    /* color: rgb(226, 63, 144); */
+    color: rgb(255, 140, 0);
 }
 
 textarea{
@@ -150,12 +161,19 @@ textarea{
 
 #About{
     font-size: 20px;
-    color: rgb(0, 225, 255);
-    text-align: center;
+    overflow: hidden;
+    color: #ffff;
     padding: 20px;
     /* background-color: rgba(127, 255, 212, 0.308); */
-    background-color: rgba(187, 96, 195, 0.192);
+    background-color: rgba(169, 100, 175, 0.192);
     min-height:99vh;
+    text-align: center;
+}
+
+#About h2{
+    color: rgb(0, 225, 255);
+    margin-bottom: 30px;
+
 }
 
 table{
@@ -183,7 +201,7 @@ th{
     padding-top: 10px;
     height: 200px;
     width: 100%;
-    background-color: rgba(146, 120, 140, 0.322);
+    background-color: rgba(60, 158, 175, 0.26);
     min-height:99vh;
     min-width: 100px;
     color: rgb(21, 255, 0);
@@ -225,4 +243,13 @@ button{
 
 button:hover{
     transform: scale(1.1);
+}
+
+footer{
+    min-height: 10vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(59, 59, 59);
 }
