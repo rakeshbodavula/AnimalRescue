@@ -255,3 +255,7 @@ footer{
 section{
     overflow: auto;
 }
+
+footer{
+    padding: 20px;
+}
