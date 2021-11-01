@@ -83,7 +83,7 @@ header{
     height: 200px;
     width: 200px;
     margin-top: 15vh;
-    margin-bottom: 35vh;
+    margin-bottom: 18vh;
     background-color: #ffff;
     display: flex;
     justify-content: center;
@@ -257,4 +257,33 @@ section{
 }
 footer{
     padding:0 50px;
+}
+
+.instructions{
+    color: #ffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.instructions div{
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    background-color: aqua;
+}
+
+.instructions a{
+    color: rgb(250, 16, 16);
+    font-size: larger;
+    outline: none;
+    text-decoration: none;
+}
+
+.instructions a:hover{
+    transform: scale(1.05);
+    color: rgb(0, 25, 250);
 }
