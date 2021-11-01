@@ -18,4 +18,5 @@
 
 ### Main page: ![image](https://user-images.githubusercontent.com/78262219/139588576-f7afa54b-bf1b-4be2-a62a-034502bf5993.png)
 ### Form: ![image](https://user-images.githubusercontent.com/78262219/139588647-38f4afc2-2bb0-4b30-b403-bfc32dbce3f8.png)
-### Adoption Details: ![image](https://user-images.githubusercontent.com/78262219/139588665-50c1f5ce-8549-4b7f-9918-d23cd5340e5d.png)
+### Adoption Details: ![image](https://user-images.githubusercontent.com/78262219/139616760-ddb3cccd-ce3c-417d-ae9b-213aaded561a.png)
+
