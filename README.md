@@ -14,8 +14,13 @@
   
 ### Github hosting page link : https://rakeshbodavula.github.io/Hackatsuki/
 
-## Ours is a Web Application
+## Project description:
 
+#### Our idea is to make a legitimate website through which people can register stray animals that they see for adoption and people who want to adopt an animal can do it from the site and adopt stray animals instead of going to pet stores, which treat the animals immorally. Our goal is to remove the discrimination based on breeds, and give all animals a chance at experiencing the love that they deserve. 
+
+All the features are yet to be implemented perfectly as we are not great at back-end development. We plan on adding a lot more features like a map showing all the animals nearby you based on form data.
+
+## Ours is a Web Application
 ### Main page: ![image](https://user-images.githubusercontent.com/78262219/139588576-f7afa54b-bf1b-4be2-a62a-034502bf5993.png)
 ### Form: ![image](https://user-images.githubusercontent.com/78262219/139588647-38f4afc2-2bb0-4b30-b403-bfc32dbce3f8.png)
 ### Adoption Details: ![image](https://user-images.githubusercontent.com/78262219/139616760-ddb3cccd-ce3c-417d-ae9b-213aaded561a.png)
