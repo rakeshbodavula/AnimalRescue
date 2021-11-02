@@ -21,7 +21,9 @@
 All the features are yet to be implemented perfectly as we are not great at back-end development. We plan on adding a lot more features like a map showing all the animals nearby you based on form data.
 
 ## Ours is a Web Application
-### Main page: ![image](https://user-images.githubusercontent.com/78262219/139588576-f7afa54b-bf1b-4be2-a62a-034502bf5993.png)
+### Main page: ![image](https://user-images.githubusercontent.com/78262219/139782892-580d31a9-44b4-4283-8994-3373fd70e3f7.png)
+
 ### Form: ![image](https://user-images.githubusercontent.com/78262219/139588647-38f4afc2-2bb0-4b30-b403-bfc32dbce3f8.png)
+
 ### Adoption Details: ![image](https://user-images.githubusercontent.com/78262219/139616760-ddb3cccd-ce3c-417d-ae9b-213aaded561a.png)
 
