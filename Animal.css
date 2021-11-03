@@ -71,7 +71,7 @@ header{
     font-family: "Audiowide", sans-serif;
     /* font-family: "Sofia", sans-serif; */
     /* font-family: "Trirong", serif; */
-}
+} 
 
 .nav-button:hover{
     background-color: rgba(255, 191, 41, 0.87);
@@ -80,10 +80,12 @@ header{
 }
 
 .register{
+    /* height: 200px;
+    width: 200px; */
     height: 180px;
     width: 180px;
-    margin-top: 15vh;
-    margin-bottom: 18vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
     background-color: #ffff;
     display: flex;
     justify-content: center;
@@ -98,7 +100,7 @@ header{
     background-size: cover;
     border: solid rgb(222, 245, 179);
     border-radius: 50%;
-    font-size: larger;
+    font-size: large;
 }
 
 .register a{
@@ -286,4 +288,14 @@ footer{
 .instructions a:hover{
     transform: scale(1.05);
     color: rgb(0, 25, 250);
+}
+
+#quote{
+    font-family: "Trirong", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.37);
+    padding: 10px;
 }
