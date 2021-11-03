@@ -71,7 +71,7 @@ header{
     font-family: "Audiowide", sans-serif;
     /* font-family: "Sofia", sans-serif; */
     /* font-family: "Trirong", serif; */
-} 
+}
 
 .nav-button:hover{
     background-color: rgba(255, 191, 41, 0.87);
@@ -80,8 +80,8 @@ header{
 }
 
 .register{
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     margin-top: 15vh;
     margin-bottom: 18vh;
     background-color: #ffff;
