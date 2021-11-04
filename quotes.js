@@ -20,3 +20,12 @@ function quotesFunction() {
       }
   }
 }
+
+function smallScreenCorrection(){
+  document.getElementById("hackatsuki-header").classList.remove("hackatsuki-heading");
+  document.getElementById("heading-div").classList.add("hackatsuki-heading");
+  document.getElementById("nav-div").classList.replace("nav","nav-smallScreen");
+  document.getElementsByClassName("nav-button")[0].style.minWidth="60px";
+  document.getElementsByClassName("nav-button")[1].style.minWidth="60px";
+  document.getElementsByClassName("nav-button")[2].style.minWidth="60px";
+}
