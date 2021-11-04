@@ -12,7 +12,7 @@ body{
     background-attachment: fixed;
 }
 
-header{
+.hackatsuki-heading{
     margin: 10px;
     height: 12vh;
     padding: 10px 30px;
@@ -31,6 +31,17 @@ header{
     row-gap: 10px;
     column-gap: 35px;
     width: 50%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-smallScreen{
+    position: sticky;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(76px,1fr));
+    column-gap: 6px;
+    width: 100%;
     height: 100%;
     text-align: center;
     align-items: center;
@@ -71,7 +82,7 @@ header{
     font-family: "Audiowide", sans-serif;
     /* font-family: "Sofia", sans-serif; */
     /* font-family: "Trirong", serif; */
-} 
+}
 
 .nav-button:hover{
     background-color: rgba(255, 191, 41, 0.87);
